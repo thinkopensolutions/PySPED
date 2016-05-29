@@ -1520,7 +1520,7 @@ class Dest(nfe_200.Dest):
         self.modelo = '55'
         self.enderDest = EnderDest()
         self.idEstrangeiro = TagCaracter(nome='idEstrangeiro' , codigo='E03a', tamanho=[0 , 20]   , raiz='//NFe/infNFe/dest', obrigatorio=False)
-        self.indIEDest = TagCaracter(nome='indIEDest', codigo='E16a', tamanho=[1 , 1], raiz='//NFe/infNFe/dest', obrigatorio=False, valor='9')
+        self.indIEDest = TagCaracter(nome='indIEDest', codigo='E16a', tamanho=[1 , 1], raiz='//NFe/infNFe/dest', obrigatorio=False)
         self.IE        = TagCaracter(nome='IE'   , codigo='E17', tamanho=[ 2, 14]   , raiz='//NFe/infNFe/dest', obrigatorio=False)
         self.IM        = TagCaracter(nome='IM', codigo='E18a', tamanho=[ 1, 15]   , raiz='//NFe/infNFe/dest', obrigatorio=False)
 
