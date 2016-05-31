@@ -1568,6 +1568,7 @@ class Dest(nfe_200.Dest):
             self.idEstrangeiro.xml = arquivo
             self.xNome.xml     = arquivo
             self.enderDest.xml = arquivo
+	    self.indIEDest.xml = arquivo
             self.IE.xml        = arquivo
             self.ISUF.xml      = arquivo
             self.IM.xml     = arquivo

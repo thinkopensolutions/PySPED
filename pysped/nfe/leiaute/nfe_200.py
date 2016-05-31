@@ -1970,6 +1970,7 @@ class Dest(nfe_110.Dest):
 
         xml += self.xNome.xml
         xml += self.enderDest.xml
+	xml += self.indIEDest.xml
         xml += self.IE.xml
         xml += self.ISUF.xml
         xml += self.email.xml
@@ -1982,6 +1983,7 @@ class Dest(nfe_110.Dest):
             self.CPF.xml       = arquivo
             self.xNome.xml     = arquivo
             self.enderDest.xml = arquivo
+	    self.indIEDest.xml = arquivo
             self.IE.xml        = arquivo
             self.ISUF.xml      = arquivo
             self.email.xml     = arquivo
